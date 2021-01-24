@@ -1,0 +1,2 @@
+# cat-wiki
+Challenge: Create my CatWiki app. Use Front-end libraries like React or Vue.js. Create your API. Don’t look at the existing solution. Fulfill user stories below:  Using https://docs.thecatapi.com/ to complete this challenge. The client-side should not use the API directly. Everything should be handled on the server-side. For example, suggesting the breeds or getting images for the breed.
