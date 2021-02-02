@@ -206,3 +206,65 @@ hr {
   font-size: 18px;
   font-weight: 600;
 }
+
+/* WHY */
+.why {
+  width: 1250px;
+  margin: auto;
+  padding: 100px 0;
+}
+.why__container {
+  display: flex;
+  max-width: 1050px;
+  margin: auto;
+}
+.why__details {
+  width: 50%;
+}
+.why__title {
+  font-size: 64px;
+  color: var(--first-color);
+  margin-bottom: 45px;
+}
+.why__text {
+  font-size: 18px;
+  color: var(--first-color);
+  margin-bottom: 70px;
+}
+.why__link {
+  text-decoration: none;
+  color: var(--first-color);
+  font-weight: 600;
+}
+
+.why__gallery {
+  display: grid;
+  grid-gap: 30px;
+  width: 50%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(2, auto);
+  grid-template-areas:
+    "why__img--1      why__img--3"
+    "why__img--2      why__img--3";
+}
+.why__img {
+  border-radius: 24px;
+  object-fit: cover;
+}
+
+.why__img--1 {
+  grid-area: why__img--1;
+  width: 275px;
+  height: 170px;
+}
+.why__img--2 {
+  grid-area: why__img--2;
+  width: 200px;
+  height: 300px;
+  justify-self: end;
+}
+.why__img--3 {
+  grid-area: why__img--3;
+  width: 240px;
+  height: 385px;
+}
