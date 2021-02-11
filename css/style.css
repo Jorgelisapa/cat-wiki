@@ -348,6 +348,8 @@ hr {
     bottom: 0;
     z-index: 10;
   }
+
+  /* BREEDS */
   .breeds__gallery {
     display: grid;
     justify-self: center;
@@ -363,6 +365,11 @@ hr {
   .breeds__cat {
     justify-self: center;
   }
+
+  .breeds__title {
+  font-size: 40px;
+}
+
 
   /* WHY */
   .why__container {
@@ -391,7 +398,7 @@ hr {
 
   }
   .main__details {
-/*     align-items: center; */
+    align-items: center;
     width: 60%;
     height: 40%;
     margin-top: 16px;
@@ -415,18 +422,41 @@ hr {
     height: 40px;
     min-width: 70%;
   }
-/*   .main__browser-text,
-  .main__browser-search {
-    font-size: 18px;
-  } */
   .main__img {
-    position: absolute;
     width: 95vw;
-    right: 0;
-    bottom: 0;
-    z-index: 10;
     margin: auto;
   }
+
+.breeds__most-searched {
+  font-size: 16px;
+}
+.breeds__title {
+  font-size: 30px;
+}
+.breeds__see-more {
+  font-size: 14px;
+  margin-left: 20px;
+}
+  .breeds__gallery {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas:
+      "breeds__cat";
+  }
+  .why__details {
+  max-width:80%;
+}
+.why__gallery {
+  display: grid;
+  grid-gap: 30px;
+  max-width: 100%;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas:
+    "why__img--1"      
+    "why__img--2"
+    "why__img--3";
+}
 }
 
 @media screen and (max-width: 1024px) and (orientation: landscape) {
