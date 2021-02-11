@@ -158,7 +158,6 @@ body {
   border-radius: 0 0 40px 40px;
 }
 .breeds__container {
-  /*   max-width: 1050px; */
   max-width: 95%;
   height: inherit;
   margin: auto;
