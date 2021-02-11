@@ -457,6 +457,17 @@ hr {
     "why__img--2"
     "why__img--3";
 }
+
+.footer__container {
+  justify-content: space-evenly;
+  flex-direction: column;
+  max-width: 90%;
+
+}
+.terms {
+  color: #fff;
+  font-size: 14px;
+}
 }
 
 @media screen and (max-width: 1024px) and (orientation: landscape) {
