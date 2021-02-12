@@ -186,11 +186,14 @@ hr {
   color: var(--first-color);
 }
 
-.breeds__see-more {
+.breeds__top-ten {
   font-size: 18px;
   font-weight: 700;
   color: var(--first-color);
   text-decoration: none;
+  background: chocolate;
+  border-radius: 10px;
+  padding: 10px;
 }
 
 .breeds__gallery {
@@ -432,7 +435,7 @@ hr {
 .breeds__title {
   font-size: 30px;
 }
-.breeds__see-more {
+.breeds__top-ten {
   font-size: 14px;
   margin-left: 20px;
 }
